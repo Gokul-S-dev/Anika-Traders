@@ -26,6 +26,5 @@ jobs:
             - name: "Run tests"
               run: npm test -- --watchAll=false || echo "Tests failed, but continuing with the build."
 
-            
             - name: "Build project"
               run: npm run build
